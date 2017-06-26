@@ -1,6 +1,5 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/sci-electronics/gazebo/gazebo-6.1.0.ebuild,v 1.2 2015/23/09 12:14:40 Hunter.Allen Exp $
 
 EAPI=6
 
@@ -13,7 +12,7 @@ SRC_URI="https://bitbucket.org/osrf/${PN}/get/${PN}${MY_MAJORV}_${PV}.tar.bz2"
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~x86 ~amd64"
 IUSE="cpu_flags_x86_sse2 libav test"
 
 RDEPEND="
